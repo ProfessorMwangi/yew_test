@@ -1,5 +1,5 @@
 use yew::prelude::*;
-use wasm_bindgen::{JsCast, JsValue};
+use wasm_bindgen::JsValue;
 
 #[function_component(LoginForm)]
 fn login_form() -> Html {
@@ -108,7 +108,8 @@ fn login_form() -> Html {
                     position: relative;
                 }
                 
-                .background-section::after {
+                .background-secti
+                on::after {
                     content: '';
                     position: absolute;
                     top: 0;
